@@ -1,0 +1,112 @@
+.main{
+    background-color: rgba(15, 15, 15, 0.795);
+    margin: auto;
+    overflow: hidden; 
+    height: 600px;   
+}
+
+.user{
+     background-color: gray;
+    padding: 40px 40px;
+    margin: 25px 25px;
+    width: 320px;
+    float: left;
+}
+
+.user h1{
+    margin: 0px 0px;
+    padding: 0px 00px ;
+}
+
+.ani {
+	-webkit-animation: ani 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: ani 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+ @-webkit-keyframes ani {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes ani {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+.user a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+  
+.details{
+  background-color: gray;
+  padding: 40px 40px;
+  margin: 25px 25px;
+  width: 300px;
+  float: left;
+}
+.details h1{
+  margin: 0px 0px;
+  padding: 0px 00px  
+}
+
+.mytable{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #f2f2f2;
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px; 
+}
+
+.Transactions{
+  background-color: gray;
+  padding: 40px 40px;
+  margin: 25px;
+  width: 300px;
+  float: left;
+}
+
+.Transactions h1{
+  margin: 0px 0px;
+  padding: 0px 00px  
+}
+
+.Transactions label{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px; 
+}
+
+.Transactions button {
+  border-radius: 10px;
+  font-size: 17px;
+}
+
+
+
+
+
+
